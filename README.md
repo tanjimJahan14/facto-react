@@ -5,8 +5,7 @@ A React-based project.
 ## 🔗 Links
 
 - GitHub Repository: [tanjimJahan14/facto-react](https://github.com/tanjimJahan14/facto-react)  
-- Live Demo: [facto-react on Vercel](https://facto-react-r74d3bdxb-tanjim-jahans-projects.vercel.app/)
-
+- Live Demo: https://inquisitive-croquembouche-41624a.netlify.app/
 ---
 
 ## 🚀 Getting Started
@@ -19,4 +18,5 @@ git clone https://github.com/tanjimJahan14/facto-react.git
 cd facto-react
 npm install
 npm start
+
 
