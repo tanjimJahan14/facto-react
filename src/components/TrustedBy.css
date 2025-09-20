@@ -1,0 +1,85 @@
+.trusted-by {
+  background: #064e3b;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.trusted-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.trusted-label {
+  font-size: 0.875rem;
+  color: #d1fae5;
+}
+
+.companies-label {
+  font-weight: 600;
+  color: white;
+}
+
+.companies-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.logo-item {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #d1fae5;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.logo-item:hover {
+  opacity: 1;
+}
+
+.logo-item:first-child::before {
+  content: "🔹 ";
+  margin-right: 0.5rem;
+}
+
+.logo-item:nth-child(2)::before {
+  content: "⚡ ";
+  margin-right: 0.5rem;
+}
+
+.logo-item:nth-child(3)::before {
+  content: "💎 ";
+  margin-right: 0.5rem;
+}
+
+.logo-item:nth-child(4)::before {
+  content: "📊 ";
+  margin-right: 0.5rem;
+}
+
+.logo-item:nth-child(5)::before {
+  content: "📈 ";
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .trusted-by {
+    padding: 1.5rem 0;
+  }
+
+  .companies-logos {
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .trusted-header {
+    justify-content: center;
+    text-align: center;
+  }
+}

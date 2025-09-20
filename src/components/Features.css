@@ -1,0 +1,369 @@
+.features {
+  padding: 4rem 0;
+  background: #f8fafc;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-icon {
+  font-size: 1.5rem;
+}
+
+.card-header h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+/* Sales Overview Card */
+.sales-overview {
+  background: linear-gradient(135deg, #dcfce7 0%, #f0fdf4 100%);
+}
+
+.sales-stats > * + * {
+  margin-top: 1rem;
+}
+
+.total-sales {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.check-icon {
+  color: #059669;
+  font-weight: bold;
+}
+
+.label {
+  color: #64748b;
+  font-size: 0.875rem;
+}
+
+.amount {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #1e293b;
+}
+
+.chart-area {
+  margin: 1.5rem 0;
+}
+
+.highest-sale {
+  background: #fef08a;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.highest-label {
+  font-size: 0.75rem;
+  color: #92400e;
+}
+
+.highest-amount {
+  font-weight: 700;
+  color: #92400e;
+  margin-left: 0.5rem;
+}
+
+.chart {
+  margin: 1rem 0;
+}
+
+.bar-chart {
+  display: flex;
+  align-items: end;
+  gap: 0.25rem;
+  height: 80px;
+  margin-bottom: 0.5rem;
+}
+
+.bar {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  width: 20px;
+  border-radius: 4px 4px 0 0;
+  min-height: 10px;
+}
+
+.chart-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.avg-sale {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+/* Factoring Card */
+.factoring {
+  background: linear-gradient(135deg, #dbeafe 0%, #eff6ff 100%);
+}
+
+.available-amount {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.amount-label {
+  font-size: 0.875rem;
+  color: #64748b;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.amount-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.currency {
+  font-size: 1.5rem;
+  color: #1e293b;
+}
+
+.amount-display .amount {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.currency-label {
+  font-size: 0.875rem;
+  color: #64748b;
+  padding: 0.25rem 0.5rem;
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+
+.factoring-details {
+  margin-top: 1.5rem;
+}
+
+.detail-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.currency-icon {
+  color: #059669;
+  font-weight: bold;
+}
+
+.detail-label {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.balance-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.balance-label {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.balance-amount {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #059669 0%, #047857 100%);
+  transition: width 0.3s ease;
+}
+
+.percentage {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #059669;
+}
+
+/* Workflow Card */
+.workflow {
+  background: linear-gradient(135deg, #fef3c7 0%, #fffbeb 100%);
+}
+
+.workflow-content > * + * {
+  margin-top: 1.5rem;
+}
+
+.user-section {
+  margin-bottom: 2rem;
+}
+
+.recent-user {
+  margin-bottom: 1.5rem;
+}
+
+.recent-label {
+  font-size: 0.875rem;
+  color: #64748b;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.user-avatars {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  background: #e2e8f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  color: #64748b;
+  border: 2px solid white;
+}
+
+.avatar:last-child {
+  background: #059669;
+  color: white;
+}
+
+.total-balance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.balance-label {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.total-balance .balance-amount {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.add-number-btn {
+  background: #059669;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.status-section {
+  margin-top: 2rem;
+}
+
+.online-status {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background: #22c55e;
+  border-radius: 50%;
+}
+
+.restaurant-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: auto;
+  font-size: 0.875rem;
+}
+
+.restaurant-info .amount {
+  color: #059669;
+  font-weight: 600;
+}
+
+.status-label {
+  background: #dcfce7;
+  color: #166534;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .features {
+    padding: 2rem 0;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .feature-card {
+    padding: 1.5rem;
+  }
+}
